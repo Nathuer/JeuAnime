@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+/* BALISES */
+h1{
+    font-family: "Bebas Neue";
+    font-size: 3.5em;
+    text-align: center;
+    animation: rise 2s ease-in-out 0.5s forwards;
+    text-shadow: 0em 0.01em #ff5, 0em 0.02em #ff5, 0em 0.02em 0.03em #ff5,
+    -0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+    -0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+    -0.03em -0.03em 0.03em #000;
+}
+
+h2{
+    font-family: "Bebas Neue";
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0em 0.01em #55ffe0, 0em 0.02em #55ffe0, 0em 0.02em 0.03em #55ffe0,
+    -0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+    -0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+    -0.03em -0.03em 0.03em #000;
+}
+
+
+body{
+    background-image: url("../background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+img{
+    width: 700px;
+    object-fit: contain;
+}
+
+p{
+    font-family: Bahnschrift;
+    font-size: 30px;
+    color: cornsilk;
+    text-shadow: 0em 0.01em #55ffe0, 0em 0.02em #55ffe0, 0em 0.02em 0.03em #55ffe0,
+    -0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+    -0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+    -0.03em -0.03em 0.03em #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.anime, .genre, .saison {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
+
+#affichage{
+    display: block;
+}
+.anime::placeholder {
+    color: #d21010; /* Couleur du placeholder */
+}
+
+button {
+    margin-top: 10px;
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+input[type="submit"] {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(30, 20, 215);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(13, 9, 108) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    box-shadow: rgb(13, 9, 108) 0px 7px 0px 0px;
+}
+
+input[type="submit"]:active{
+    background-color: rgb(30, 20, 215);
+    /*50, 168, 80*/
+    box-shadow: rgb(13, 9, 108) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+
+
